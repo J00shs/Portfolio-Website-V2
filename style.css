@@ -3,9 +3,12 @@ Classes use the [.]
 #669DB3FF,60%,white, lightcoral 40%
 */
 body{
-    height: 991px;
-    background: linear-gradient(#669DB3FF 50%,lightcoral 100%);
-    font-family: monospace;
+    height: 100px;
+    background: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #348F50;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #56B4D3, #348F50);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #56B4D3, #348F50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     
 }
 
@@ -74,14 +77,19 @@ nav a:hover::before{
     margin: 20px;
 }
 
-section img{
+div img{
     text-align: center;
     position: relative;
+    width: 400px;
     border-radius: 50%;
-    overflow: hidden;
 }
 
 .socialLinks{
     text-align: center;
     margin: 10px;
+}
+
+.text_content{
+    text-align: center;
+    color: white;
 }
