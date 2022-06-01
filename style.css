@@ -77,11 +77,11 @@ nav a:hover::before{
     margin: 20px;
 }
 
-section img{
+div img{
     text-align: center;
     position: relative;
+    width: 400px;
     border-radius: 50%;
-    overflow: hidden;
 }
 
 .socialLinks{
