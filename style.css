@@ -77,6 +77,7 @@ nav a:hover::before{
     margin: 20px;
 }
 
+
 div img{
     text-align: center;
     position: relative;
@@ -122,6 +123,17 @@ h1{
 }
 
 
+.submit_button{
+    display: inline-block;
+    background-color: white;
+    text-decoration: none;
+    border: 10px;
+    font-size: 15px;
+    padding: 0.5rem 2rem;
+    cursor: pointer;
+
+}
+
 .contactMe_form{
     margin: 0 auto;
     padding: 0 3rem;
@@ -131,19 +143,87 @@ h1{
 }
 
 .contactme_heading{
-    display:inline-block;
+    display: inline-block;
+    color: black;
     background-color: white;
-    padding: 0.8rem;
-    color:#669DB3FF;
+    padding: 20px;
 
 }
 
-.submit_button{
+#fullNameInfo{
     display: inline-block;
-    background-color: white;
-    text-decoration: none;
-    border: 10px;
-    font-size: 15px;
-    padding: 0.5rem 2rem;
+    padding: 10px;
+    margin: 10px;
+    border-color: black;
+    border-width: 2px;
+    width: 15rem;
+}
 
+#emailAddress{
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    border-color: black;
+    border-width: 2px;
+    width: 15rem;
+}
+
+#phoneNumber{
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    border-color: black;
+    border-width: 2px;
+    width: 15rem;
+}
+
+form label{
+    display: inline-block;
+  background-color: white;  
+  font-size: 20px;
+    padding: 10px;
+    border: black;
+}
+
+#contact_btn{
+    display: inline-block;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 10px;
+    font-size:15px;
+    padding: 1rem 4rem;
+    margin-top: 5rem;
+    border-radius: 10%;
+}
+
+span{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+span:after{
+    content: ".\00bb";
+    position:absolute;
+    opacity: 0;
+    top:0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+#contact_btn:hover span{
+    padding-right: 25px;
+
+}
+
+#contact_btn:hover span:after{
+    opacity: 1;
+    right: 0;
+    transition: 0.5s;
+}
+
+#contact_textArea{
+    text-align: center;
+    font-size: 15px;
 }
