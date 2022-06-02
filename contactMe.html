@@ -21,23 +21,27 @@
     <div class="contactMe_form">
     <h2 class = "contactme_heading">Let's get to know each other!</h2>
     <form action="" method="">
-        <label for ="sameName">Name</label>
-        <input type="text" placeholder = "Enter Full Name Here "name="" id="sameName">
-         <br>
+    <label for = "fullName">Full Name</label>
+        <input type="text" placeholder = "Enter Full Name here"name="fullName" id="fullNameInfo">
+        <br>
+        <br>
 
-         <label for = "email">Email</label>
-         <input type="email" placeholder="Enter email here" name="" id = "email">
-         <br>
-        
-         <br>
-         <textarea name="" placeholder = "Tell me about yourself!"id="" cols="30" rows="10"></textarea>
-        
-         <br>
-         <p class = "explanation">I'll try my best to get back to you!</p>
-         <input type="submit" class="submit_button"> 
+        <label for="emailAddress" >Email Address</label>
+        <input type="email" name="emailAddress" id="emailAddress" placeholder="Enter Email Here">
+        <br>
+        <br>
 
-    
-     <!--input type="text" name="Name" id="">
+        <label for="phoneNumber">Phone Number</label>
+        <input type="tel" name="phoneNumber" id="phoneNumber" placeholder="Enter number here. [123-456-7890]" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+        <br>
+        <br>
+        
+        <textarea name="userDescription" placeholder="Tell me about yourself" id="contact_textArea" cols="40" rows="10"></textarea>
+        <br>
+        <br>
+
+        <button type = "submit" id="contact_btn" ><span>Submit Information</span></button>
+        <!--input type="text" name="Name" id="">
         <button type= "submit">Submit Information</button>
         -->
      </form>
