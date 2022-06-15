@@ -242,3 +242,13 @@ span:after{
     text-align: center;
     font-size: 15px;
 }
+
+
+.intro{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    font-size: 100px;
+    color: white;
+
+}
